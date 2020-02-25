@@ -65,6 +65,7 @@ export default function Filter(props) {
               type="text"
               defaultValue={title ? title[0].value : ""}
               style={{width: '200px', boxSizing: 'border-box'}}
+              autoComplete="off"
           >
           </input>
         </div>

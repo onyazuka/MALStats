@@ -18,11 +18,13 @@ export default function Total(props) {
               className={`${CONSTS.APP_CLASS_PREFIX}info_animeStats`}
               stats={user.info.anime_stats}
               type="anime"
+              title="Anime Stats"
           />
           <StatsComponents.MangaStats  
               className={`${CONSTS.APP_CLASS_PREFIX}info_mangaStats`}
               stats={user.info.manga_stats}
               type="manga"
+              title="Manga Stats"
           />
           <StatsComponents.Scores  
               className={`${CONSTS.APP_CLASS_PREFIX}info_animeScores`}
