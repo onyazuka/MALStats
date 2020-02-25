@@ -52,7 +52,7 @@ export default function Filter(props) {
     setFilters(filters);
   }
 
-  const filterContents = shown ? 
+  const filterContents = shown  ? 
     <form 
         onSubmit={(event) => { event.preventDefault(); onFiltersSubmit(); }}
         ref={formRef}
