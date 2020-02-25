@@ -1,0 +1,11 @@
+#!/bin/bash
+version=$1
+mode=$2
+if [[ $mode = "new" ]]; then
+	echo "HI"
+	mkdir backups/$version
+fi
+rm -rf backups/$version/*
+cp -r build src images backups/$version
+cp * backups/$version
+
